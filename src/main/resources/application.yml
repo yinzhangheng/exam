@@ -1,0 +1,20 @@
+
+rule:
+  reject:
+   weight: 50
+  heavy:
+    weight: 10
+    price: 20
+  small:
+    volume: 1500
+    price: 0.03
+  medium:
+    volume: 2500
+    price: 0.04
+  large:
+    price: 0.05
+
+
+voucher:
+  url: https://mynt-exam.mocklab.io/voucher/
+  params: ?key=apikey
